@@ -2437,7 +2437,7 @@ spec:
       - command:
         - /shared/argocd-util
         - rundex
-        image: docker.mirrors.ustc.edu.cn/dexidp/dex:v2.27.0
+        image: dexidp/dex:v2.27.0
         imagePullPolicy: Always
         name: dex
         ports:

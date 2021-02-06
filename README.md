@@ -1,6 +1,6 @@
 # argo-cd install cn
 ### 替换了在国内拉取不下来的镜像
-- ghcr.io/dexidp/dex -> docker.mirrors.ustc.edu.cn/dexidp/dex
+- ghcr.io/dexidp/dex -> dexidp/dex
 
 ```
 kubectl create namespace argocd
