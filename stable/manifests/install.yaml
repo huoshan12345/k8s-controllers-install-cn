@@ -2631,6 +2631,7 @@ spec:
         - argocd-server
         - --staticassets
         - /shared/app
+        - --insecure # Using NGINX ingress, send --insecure arg for container of argocd-server Deployment
         image: argoproj/argocd:v1.8.4
         imagePullPolicy: Always
         livenessProbe:
