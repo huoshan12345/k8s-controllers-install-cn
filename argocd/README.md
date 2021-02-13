@@ -1,4 +1,4 @@
-# argocd
+### argocd
 - ghcr.io/dexidp/dex -> dexidp/dex
 
 ```
